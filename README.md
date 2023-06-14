@@ -30,6 +30,7 @@ object.
 It help to run our own node in blockchain on behalf of us.
 
 #1.Reading from Blockchain.
+
 **Use of provider** - Provider is used to read data from the blockchain.
 
 ###Code for reading data from blockchain.
@@ -213,7 +214,7 @@ In the below code we are only reading the data from our contract for now. Becaus
 //In this file we are only reading the data from our contract for now. Because for reading the data we need signature to conform the transaction for that we use react application
 const {ethers} = require("ethers")
 const provider = new ethers.providers.JsonRpcProvider(
-    `https://sepolia.infura.io/v3/3283e3d01f3c4301a96544e32fc51e30`
+    `YOUR INFURA API key` i have already an file named Ether_js in infura.
 );
 const walletAddress = "0x0b67d4cce641fddc924dc233236a2d5dc1ca1194";//"0xeb1965e65ca6adbb8db493df5680b5c0075295f9"
 const walletABI =[
