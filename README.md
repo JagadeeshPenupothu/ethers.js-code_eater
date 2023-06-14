@@ -1,4 +1,4 @@
-#General dissuction on Ethers.js.
+# General dissuction on Ethers.js.
 **Ethers.js** --- It help to connect frontend and blockchain(smartContract). `or` The ethers.js library aims to be a complete and compact library for interacting with the Ethereum
 
 **Provider** -- It will read the data in blockchain. `or` A provider(in ethers) is a class which provides an abstraction for a connection to the Ethereum Network. It provides read-only access to the Blockchain an its status.
@@ -46,13 +46,13 @@ queryBlockchain();`
 As of now we see that for read data from blockchain wwe used provider but for writting data on blockchain we use both metamask + signer. For that we have to write a smartContract..
 
 ####sample smartContract.
+
 `// SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.17;
 contract wallet{
     //read
     string public name="wallet";
     uint num;
-     
     //write
     function setValue(uint _num) public {
         num=_num;
